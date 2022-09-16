@@ -1,0 +1,63 @@
+http://www.csszengarden.com/100/
+
+HTML
+<div class="summary" id="zen-summary" role="article">
+			<p>A demonstration of what can be accomplished through <abbr title="Cascading Style Sheets">CSS</abbr>-based design. Select any style sheet from the list to load it into this page.</p>
+			<p>Download the example <a href="/examples/index" title="This page's source HTML code, not to be modified.">html file</a> and <a href="/examples/style.css" title="This page's sample CSS, the file you may modify.">css file</a></p>
+		</div>
+CSS
+.summary {
+    font: italic 1em/2 Times, "Times New Roman", serif;
+    color: rgb(42,92,42);
+    background: rgb(94%,98%,96%) url(quickSummary.jpg) 0 100% no-repeat;
+    margin: 1px 0;
+    padding: 1em 180px 1.5em 1.5em;
+}
+
+HTML
+<footer>
+			<a href="http://validator.w3.org/check/referer" title="Check the validity of this site’s HTML" class="zen-validate-html">HTML</a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer" title="Check the validity of this site’s CSS" class="zen-validate-css">CSS</a>
+			<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="View the Creative Commons license of this site: Attribution-NonCommercial-ShareAlike." class="zen-license">CC</a>
+			<a href="http://mezzoblue.com/zengarden/faq/#aaa" title="Read about the accessibility of this site" class="zen-accessibility">A11y</a>
+			<a href="https://github.com/mezzoblue/csszengarden.com" title="Fork this site on Github" class="zen-github">GH</a>
+		</footer>
+
+CSS
+footer {
+    background: #FFF url(footer.jpg) 0 1px no-repeat;
+    margin: 0 -217px 0 4px;
+    height: 123px;
+    padding: 60px 1em 0 0.5em;
+}
+
+http://www.csszengarden.com/109/
+
+HTML
+<header role="banner">
+			<h1>CSS Zen Garden</h1>
+			<h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
+		</header>
+
+CSS
+header {
+    margin: 0;
+    padding-top: 15px;
+    height: 300px;
+    background: #FFF url(header.jpg) no-repeat bottom;
+    border-bottom: 15px solid #FFF;
+}
+
+HTML
+<h3>The Road to Enlightenment</h3>
+
+CSS
+.preamble h3 {
+    height: 58px;
+    margin: 0;
+    padding: 0;
+    background: url(preambleheader.jpg) no-repeat top;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
